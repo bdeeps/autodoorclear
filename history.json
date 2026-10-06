@@ -1,0 +1,858 @@
+{
+ "title": "The history of the automatic door",
+ "tagline": "About 2,000 years from a temple door opened by an altar fire to glass that slides apart for a radar echo.",
+ "intro": "Heron of Alexandria described doors that opened by fire and falling water, as a wonder for a temple. The modern story starts in the 1880s with two very practical problems: draughts in tall buildings and people falling down lift shafts. In 1931 a beam of light opened a restaurant door, in 1954 two Texans beat the wind with a door that slid sideways, and from the 1970s tiny radars and infrared sensors taught doors to see. Today the same ideas guard the edge of metro platforms from Saint Petersburg to Delhi.",
+ "eras": [
+  {
+   "id": "wonder",
+   "name": "Fire, air and falling water",
+   "from": 0,
+   "to": 1880,
+   "color": "#c49bff",
+   "summary": "An ancient temple trick, and the two discoveries in physics, infrared light and the Doppler effect, that door sensors would one day be built on."
+  },
+  {
+   "id": "mech",
+   "name": "Doors that turn, lifts that guard",
+   "from": 1880,
+   "to": 1930,
+   "color": "#ffb547",
+   "summary": "Tall buildings bring draughts and deep lift shafts. The revolving door and the self-closing lift door answer them with pure mechanics."
+  },
+  {
+   "id": "magic",
+   "name": "Magic eyes and rubber mats",
+   "from": 1930,
+   "to": 1970,
+   "color": "#5ce1a9",
+   "summary": "A photocell opens a restaurant door, a nightclub fire rewrites the rules for exits, and the sliding door, switched by a mat on the floor, spreads from Texas to the world."
+  },
+  {
+   "id": "sense",
+   "name": "Radar, infrared and a computer",
+   "from": 1970,
+   "to": 2005,
+   "color": "#8ef0ff",
+   "summary": "Microwave and infrared sensors replace the mat, a microprocessor takes over the motion, and glass doors appear on metro platforms."
+  },
+  {
+   "id": "today",
+   "name": "Platforms, standards and access",
+   "from": 2005,
+   "to": 2026,
+   "color": "#ff7a59",
+   "summary": "Platform screen doors spread across India's metros, safety standards are unified, and the automatic door is seen as part of making buildings usable by everyone."
+  }
+ ],
+ "events": [
+  {
+   "year": 60,
+   "date": "c. 1st century CE",
+   "era": "wonder",
+   "art": "flame",
+   "key": true,
+   "title": "Temple doors that open by fire",
+   "who": "Heron of Alexandria",
+   "where": "Alexandria, Roman Egypt",
+   "country": "Egypt",
+   "text": "In his book Pneumatica, Heron described doors that opened when a priest lit the altar fire. The fire heated air in a closed chamber, the air pushed water into a hanging bucket, and the bucket's weight pulled ropes wound round the door posts. Nobody knows whether it was ever built at full size, and Heron's own dates are uncertain.",
+   "why": "It is the first known door that opened with nobody touching it.",
+   "sources": [
+    1,
+    0
+   ]
+  },
+  {
+   "year": 1800,
+   "date": "1800",
+   "era": "wonder",
+   "art": "thermometer",
+   "title": "Light you cannot see",
+   "who": "William Herschel",
+   "where": "England",
+   "country": "United Kingdom",
+   "text": "Herschel spread sunlight into a rainbow with a prism and put thermometers in each colour. A thermometer placed just beyond the red end, where there was no visible light at all, still warmed up. He had found infrared, which he called calorific rays.",
+   "why": "Infrared is the invisible light that watches the threshold of almost every automatic door today.",
+   "box": "presence",
+   "sources": [
+    31
+   ]
+  },
+  {
+   "year": 1842,
+   "date": "1842",
+   "era": "wonder",
+   "art": "wave",
+   "title": "A moving source changes its pitch",
+   "who": "Christian Doppler",
+   "where": "Prague (then Austrian Empire)",
+   "country": "Czechia",
+   "text": "Doppler argued that the frequency of a wave must change when its source and its observer move towards or away from each other. He was thinking of the colours of stars. Three years later it was confirmed with trumpeters on a train.",
+   "why": "A door's motion sensor is a small radar that measures exactly this shift.",
+   "box": "radar",
+   "sources": [
+    30
+   ]
+  },
+  {
+   "year": 1881,
+   "date": "22 December 1881",
+   "era": "mech",
+   "art": "window",
+   "title": "A door without a draught",
+   "who": "H. Bockhacker",
+   "where": "Berlin, Germany",
+   "country": "Germany",
+   "text": "A Berlin inventor received German patent DE 18349 for a 'Tür ohne Luftzug', a door without a draught of air. It is the earliest patent usually cited for the revolving-door idea.",
+   "why": "It names the real job of a revolving door: keeping the wind out while people go through.",
+   "box": "others",
+   "sources": [
+    2
+   ]
+  },
+  {
+   "year": 1887,
+   "date": "11 October 1887",
+   "era": "mech",
+   "art": "building",
+   "key": true,
+   "title": "Lift doors that close themselves",
+   "who": "Alexander Miles",
+   "where": "Duluth, Minnesota, USA",
+   "country": "United States",
+   "text": "Lift shafts of the time had doors that an attendant, or the passenger, had to remember to shut. People fell down open shafts. Miles, a Black inventor and barber, patented a mechanism (US 371,207) in which the moving car itself opened and closed the shaft doors through a belt, drums and levers.",
+   "why": "The shaft door was now worked by the car, not by memory: the idea every lift still uses.",
+   "box": "others",
+   "sources": [
+    3,
+    4
+   ]
+  },
+  {
+   "year": 1888,
+   "date": "7 August 1888",
+   "era": "mech",
+   "art": "wind",
+   "key": true,
+   "title": "The revolving door is patented",
+   "who": "Theophilus Van Kannel",
+   "where": "Philadelphia, USA",
+   "country": "United States",
+   "text": "Van Kannel received US patent 387,571 for a 'Storm-Door Structure' with three wings turning inside a round enclosure. It kept out wind, rain, dust and street noise, and could not be blown open. The Franklin Institute gave him its John Scott Medal in 1889.",
+   "why": "The revolving door is an air lock that people can walk through without stopping.",
+   "box": "others",
+   "sources": [
+    2
+   ]
+  },
+  {
+   "year": 1899,
+   "date": "1899",
+   "era": "mech",
+   "art": "building",
+   "title": "The first one turns in Times Square",
+   "who": "Van Kannel Revolving Door Company",
+   "where": "New York City, USA",
+   "country": "United States",
+   "text": "The first revolving door to be installed, made of wood, went into Rector's restaurant on Times Square in Manhattan.",
+   "why": "Tall city buildings, with their strong draughts, became the natural home of the revolving door.",
+   "sources": [
+    2
+   ]
+  },
+  {
+   "year": 1931,
+   "date": "1931",
+   "era": "magic",
+   "art": "eye",
+   "key": true,
+   "title": "The Magic Eye door",
+   "who": "Horace H. Raymond and Sheldon S. Roby, Stanley Works",
+   "where": "West Haven, Connecticut, USA",
+   "country": "United States",
+   "text": "Two engineers at the toolmaker Stanley Works designed a swing door opened by a photoelectric cell: walk through a beam of light and the door swung open. An early one was fitted at Wilcox's Pier Restaurant for waiters carrying trays to and from the kitchen. The whole system, installed, cost 100 dollars.",
+   "why": "It was the first door opened by a sensor that noticed a person.",
+   "box": "presence",
+   "sources": [
+    0
+   ]
+  },
+  {
+   "year": 1942,
+   "date": "28 November 1942",
+   "era": "magic",
+   "art": "flame",
+   "key": true,
+   "title": "A revolving door becomes a trap",
+   "who": "Cocoanut Grove nightclub",
+   "where": "Boston, USA",
+   "country": "United States",
+   "text": "Fire tore through a packed Boston nightclub and killed 492 people. The main entrance was a single revolving door. The crowd jammed it, and bodies piled up on both sides. Massachusetts and then other places changed their laws: a revolving door must have ordinary outward-opening doors beside it, or wings that fold flat under pressure.",
+   "why": "It taught the rule behind every automatic door since: a door must never become a wall in an emergency.",
+   "box": "fail",
+   "sources": [
+    5,
+    2
+   ]
+  },
+  {
+   "year": 1951,
+   "date": "1951",
+   "era": "magic",
+   "art": "gear",
+   "title": "Europe's first automatic door, says its maker",
+   "who": "Landert Motoren (TORMAX)",
+   "where": "Bülach, near Zurich, Switzerland",
+   "country": "Switzerland",
+   "text": "The Swiss motor maker Landert says its TORMAX division installed Europe's first automatic door in 1951. The claim comes from the company itself.",
+   "why": "Automatic doors were being developed on both sides of the Atlantic at the same time.",
+   "sources": [
+    32
+   ]
+  },
+  {
+   "year": 1953,
+   "date": "18 March 1953",
+   "era": "magic",
+   "art": "motor",
+   "title": "A door opener born of hygiene",
+   "who": "Helmut Heinz Bunzl",
+   "where": "Zurich, Switzerland",
+   "country": "Switzerland",
+   "text": "Bunzl founded a small firm, later called record, to build a drive for swing doors. His father's idea was that a door nobody has to touch spreads fewer germs than a door handle. The first prototype was called the N1.",
+   "why": "Hygiene, still the reason hospitals fit automatic doors, was a motive from the very start.",
+   "sources": [
+    8
+   ]
+  },
+  {
+   "year": 1954,
+   "date": "1954",
+   "era": "magic",
+   "art": "wind",
+   "key": true,
+   "title": "A sliding door for a windy city",
+   "who": "Dee Horton and Lew Hewitt",
+   "where": "Corpus Christi, Texas, USA",
+   "country": "United States",
+   "text": "Two men in the glass business kept repairing swing doors that the Gulf winds of Corpus Christi had flung open or held shut. They invented an automatic door that slid sideways, so the wind had nothing to push against. A rubber mat on the floor switched it on when someone stepped on it.",
+   "why": "The sliding automatic door, the kind in every mall and airport, starts here.",
+   "box": "anatomy",
+   "sources": [
+    0,
+    6
+   ]
+  },
+  {
+   "year": 1960,
+   "date": "1960",
+   "era": "magic",
+   "art": "window",
+   "key": true,
+   "title": "The sliding door goes on sale",
+   "who": "Horton Automatics",
+   "where": "Corpus Christi, Texas, USA",
+   "country": "United States",
+   "text": "Horton and Hewitt formed Horton Automatics and put the first commercial automatic sliding door on the market. By the company's account, a first unit had been given free to the city's utilities department, and the first sale was to a hotel restaurant in the same city.",
+   "why": "A whole industry followed within a few years.",
+   "sources": [
+    6,
+    7,
+    0
+   ]
+  },
+  {
+   "year": 1961,
+   "date": "29 April 1961",
+   "era": "magic",
+   "art": "road",
+   "key": true,
+   "title": "Doors on the platform",
+   "who": "Leningrad Metro",
+   "where": "Leningrad (now Saint Petersburg), Russia",
+   "country": "Russia",
+   "text": "Park Pobedy station opened with a new 'closed' design. Thick walls stood between the platform and the tracks, with steel doors that slid open only when a train had stopped behind them. More stations of this kind followed on the city's metro up to 1972.",
+   "why": "These were the first platform doors on any metro in the world.",
+   "box": "others",
+   "sources": [
+    10,
+    9
+   ]
+  },
+  {
+   "year": 1962,
+   "date": "1962",
+   "era": "magic",
+   "art": "sinewave",
+   "title": "A crystal that makes microwaves",
+   "who": "J. B. Gunn, IBM",
+   "where": "Yorktown Heights, New York, USA",
+   "country": "United States",
+   "text": "Gunn noticed that a small piece of gallium arsenide with a steady voltage across it gave out microwaves by itself. A Gunn diode in a little metal cavity became a complete, cheap microwave transmitter the size of a thumb.",
+   "why": "It made a radar small and cheap enough to put above a shop door.",
+   "box": "radar",
+   "sources": [
+    11,
+    0
+   ]
+  },
+  {
+   "year": 1962,
+   "date": "1962",
+   "era": "magic",
+   "art": "heart",
+   "title": "Doors for hospitals",
+   "who": "Besam",
+   "where": "Landskrona, Sweden",
+   "country": "Sweden",
+   "text": "Besam began in Sweden as a maker of automatic doors for hospitals, where staff push beds and trolleys and cannot spare a hand. It added sliding doors in the 1970s and revolving doors in 1985.",
+   "why": "Hospitals, not shops, were the first big customers in much of Europe.",
+   "sources": [
+    12
+   ]
+  },
+  {
+   "year": 1971,
+   "date": "1970s",
+   "era": "sense",
+   "art": "wave",
+   "key": true,
+   "title": "Radar replaces the rubber mat",
+   "who": "Door makers in Europe, Japan and the USA",
+   "where": "Worldwide",
+   "country": "Switzerland",
+   "text": "With Gunn diodes available, microwave motion sensors became common during the 1970s. The Swiss maker record introduced its first radar unit in 1971. Mats wore out, trapped dirt and could be stepped over; a sensor above the door had none of those faults.",
+   "why": "Doors could now see people coming from a few metres away.",
+   "box": "radar",
+   "sources": [
+    0,
+    8,
+    15
+   ]
+  },
+  {
+   "year": 1980,
+   "date": "1980",
+   "era": "sense",
+   "art": "heatwaves",
+   "key": true,
+   "title": "A sensor that sees warmth",
+   "who": "OPTEX (founded 1979 by Toru Kobayashi and colleagues)",
+   "where": "Kyoto and Otsu, Japan",
+   "country": "Japan",
+   "text": "A year-old Japanese company launched the OP-01, which it describes as the world's first automatic-door sensor based on far infrared rays. It detected the heat of a human body against the cooler floor. At the time most Japanese automatic doors still used pressure mats.",
+   "why": "Infrared, passive and then active, became the second sense of the automatic door.",
+   "box": "presence",
+   "sources": [
+    13,
+    0,
+    14
+   ]
+  },
+  {
+   "year": 1983,
+   "date": "1983",
+   "era": "sense",
+   "art": "window",
+   "title": "Glass doors for a train with no driver",
+   "who": "Lille Metro (VAL)",
+   "where": "Lille, France",
+   "country": "France",
+   "text": "The Lille Metro opened with small driverless trains and glass doors along the platform edge. With no driver to watch the platform, the doors made sure nobody could be on the track.",
+   "why": "Platform doors and automatic trains have gone together ever since.",
+   "box": "others",
+   "sources": [
+    9
+   ]
+  },
+  {
+   "year": 1984,
+   "date": "1984",
+   "era": "sense",
+   "art": "chip",
+   "title": "A computer takes over the door",
+   "who": "record",
+   "where": "Dübendorf, Switzerland",
+   "country": "Switzerland",
+   "text": "The Swiss maker record launched the STA 12, which it calls the world's first automatic door system controlled by a microprocessor. Software could now shape the speed along the travel, learn the width of the opening and react to an obstruction.",
+   "why": "The speed profile and the learn cycle of a modern door are software.",
+   "box": "move",
+   "sources": [
+    8
+   ]
+  },
+  {
+   "year": 1987,
+   "date": "1987",
+   "era": "sense",
+   "art": "building",
+   "title": "Platform doors to keep the cool in",
+   "who": "Singapore MRT",
+   "where": "Singapore",
+   "country": "Singapore",
+   "text": "Singapore's metro opened with full-height glass doors at its underground platforms. It is often described as the first heavy metro to fit them for climate control and safety, not because of the way the station was built.",
+   "why": "In a hot, humid city, platform doors save a great deal of air-conditioning.",
+   "box": "others",
+   "sources": [
+    9
+   ]
+  },
+  {
+   "year": 2006,
+   "date": "2006",
+   "era": "today",
+   "art": "wind",
+   "title": "Students count who uses the revolving door",
+   "who": "Graduate students at MIT",
+   "where": "Cambridge, Massachusetts, USA",
+   "country": "United States",
+   "text": "A team of students watched one campus building, E25, and found that only 23 % of people used its revolving door. They worked out that the swing door beside it let through as much as eight times more air, and that if everyone used the revolving door the building would save nearly 7,500 dollars of gas a year. (Figures as reported in later summaries of the study.)",
+   "why": "It put a number on how much energy a door choice can waste.",
+   "box": "others",
+   "sources": [
+    16,
+    2
+   ]
+  },
+  {
+   "year": 2011,
+   "date": "23 February 2011",
+   "era": "today",
+   "art": "plane",
+   "key": true,
+   "title": "India's first platform screen doors",
+   "who": "Delhi Airport Metro Express",
+   "where": "New Delhi, India",
+   "country": "India",
+   "text": "The Airport Express line of the Delhi Metro opened with full-height platform screen doors at its stations, the first metro line in India to have them.",
+   "why": "Platform doors arrived in India and spread quickly to new lines.",
+   "box": "others",
+   "sources": [
+    17,
+    9
+   ]
+  },
+  {
+   "year": 2012,
+   "date": "2012, in force April 2013",
+   "era": "today",
+   "art": "scales",
+   "key": true,
+   "title": "One safety standard for Europe's doors",
+   "who": "European Committee for Standardization (CEN)",
+   "where": "Brussels, Belgium",
+   "country": "Belgium",
+   "text": "EN 16005, 'Power operated pedestrian doorsets: safety in use', replaced a patchwork of national rules, such as Britain's BS 7036. It covers sliding, swing, folding and revolving doors: sensors, safe gaps, limits on impact forces, a low-energy mode, and extra rules for doors on escape routes.",
+   "why": "Makers across Europe now design and test to one set of safety rules.",
+   "box": "move",
+   "sources": [
+    22,
+    24,
+    25
+   ]
+  },
+  {
+   "year": 2016,
+   "date": "January 2016 onwards",
+   "era": "today",
+   "art": "person",
+   "title": "Half-height gates for Delhi's busiest platforms",
+   "who": "Delhi Metro Rail Corporation",
+   "where": "Delhi, India",
+   "country": "India",
+   "text": "Work began to fit 288 half-height platform doors, 1.7 m tall, at six crowded Yellow Line stations: Central Secretariat, Rajiv Chowk, New Delhi, Chawri Bazaar, Chandni Chowk and Kashmere Gate. Unlike the earlier doors, these were added to stations already in daily use.",
+   "why": "Platform doors were now a tool for managing crowds as well as for safety.",
+   "sources": [
+    18,
+    9
+   ]
+  },
+  {
+   "year": 2016,
+   "date": "2016",
+   "era": "today",
+   "art": "scroll",
+   "title": "India's building code and the accessible entrance",
+   "who": "Bureau of Indian Standards",
+   "where": "New Delhi, India",
+   "country": "India",
+   "text": "The National Building Code of India 2016 set out, in Part 3 (clause 13 and Annex B), how buildings should be made usable by everyone. A BIS guide to it asks for entrance doors at least 900 mm wide, and for lifts with automatic sliding doors that open at least 900 mm and have touch-free sensors to stop them closing on a person.",
+   "why": "An automatic door is an accessibility aid as much as a convenience.",
+   "box": "others",
+   "sources": [
+    29
+   ]
+  },
+  {
+   "year": 2017,
+   "date": "14 May 2017",
+   "era": "today",
+   "art": "road",
+   "title": "Chennai goes underground, behind glass",
+   "who": "Chennai Metro",
+   "where": "Chennai, India",
+   "country": "India",
+   "text": "The first underground stretch of the Chennai Metro, from Thirumangalam to Nehru Park, opened. The network's underground stations have platform screen doors.",
+   "why": "In a hot coastal city the doors also keep cooled air on the platform.",
+   "box": "others",
+   "sources": [
+    20,
+    9
+   ]
+  },
+  {
+   "year": 2017,
+   "date": "25 December 2017",
+   "era": "today",
+   "art": "digital",
+   "title": "A line built for trains without drivers",
+   "who": "Delhi Metro Magenta Line",
+   "where": "Delhi and Noida, India",
+   "country": "India",
+   "text": "The first section of the Magenta Line opened, from Botanical Garden to Kalkaji Mandir. Every station on it, and on the Pink Line, has platform gates, and it later became India's first metro line to run driverless trains.",
+   "why": "A train with no driver relies on platform doors and their interlocks.",
+   "box": "others",
+   "sources": [
+    19,
+    9
+   ]
+  },
+  {
+   "year": 2020,
+   "date": "14 February 2020",
+   "era": "today",
+   "art": "waterdrop",
+   "title": "Kolkata's Green Line, and a tunnel under the river",
+   "who": "Kolkata Metro",
+   "where": "Kolkata, India",
+   "country": "India",
+   "text": "The first section of the Green Line opened between Salt Lake Sector V and Salt Lake Stadium, with platform screen doors at its stations. On 6 March 2024 the line's tunnel under the Hooghly opened between Esplanade and Howrah Maidan.",
+   "why": "India's oldest metro city joined the ones with doors on the platform.",
+   "sources": [
+    21,
+    9
+   ]
+  },
+  {
+   "year": 2023,
+   "date": "2023–2024",
+   "era": "today",
+   "art": "scroll",
+   "title": "The European standard is revised",
+   "who": "European Committee for Standardization (CEN)",
+   "where": "Brussels, Belgium",
+   "country": "Belgium",
+   "text": "A new edition, EN 16005:2023, was published, followed by an amendment in 2024. Like the first edition it is a paid document. Its contents list shows separate clauses for low-energy movement, limiting impact forces, and escape-route doors with and without a break-out function. The American equivalent, ANSI/BHMA A156.10, with A156.19 for low-energy doors, was last revised in 2024.",
+   "why": "Safety rules keep changing as sensors and controllers improve.",
+   "box": "fail",
+   "sources": [
+    23,
+    33,
+    26,
+    27,
+    28
+   ]
+  }
+ ],
+ "firsts": [
+  {
+   "label": "First known automatic door",
+   "value": "c. 1st century CE",
+   "who": "Heron of Alexandria, Roman Egypt (described in Pneumatica)"
+  },
+  {
+   "label": "Revolving-door patent",
+   "value": "1881 and 1888",
+   "who": "H. Bockhacker, Berlin; Theophilus Van Kannel, Philadelphia"
+  },
+  {
+   "label": "Lift doors worked by the car",
+   "value": "1887",
+   "who": "Alexander Miles, Duluth, USA"
+  },
+  {
+   "label": "Door opened by a sensor",
+   "value": "1931",
+   "who": "Raymond and Roby, Stanley Works, USA"
+  },
+  {
+   "label": "Automatic sliding door",
+   "value": "1954; on sale 1960",
+   "who": "Dee Horton and Lew Hewitt, Corpus Christi, USA"
+  },
+  {
+   "label": "Platform doors on a metro",
+   "value": "1961",
+   "who": "Park Pobedy station, Leningrad"
+  },
+  {
+   "label": "Far-infrared automatic-door sensor",
+   "value": "1980",
+   "who": "OPTEX, Japan (company's claim)"
+  },
+  {
+   "label": "Platform screen doors in India",
+   "value": "2011",
+   "who": "Delhi Airport Metro Express"
+  }
+ ],
+ "people": [
+  {
+   "name": "Heron of Alexandria",
+   "life": "probably 1st century CE",
+   "role": "Engineer and mathematician",
+   "from": "Roman Egypt",
+   "note": "Described temple doors opened by an altar fire, and a coin-operated holy-water dispenser."
+  },
+  {
+   "name": "Theophilus Van Kannel",
+   "life": "1841 – 1919",
+   "role": "Inventor",
+   "from": "United States",
+   "note": "Patented the revolving door in 1888 and founded a company to build it."
+  },
+  {
+   "name": "Alexander Miles",
+   "life": "1838 – 1918",
+   "role": "Inventor and barber",
+   "from": "United States",
+   "note": "Patented lift-shaft doors opened and closed by the moving car, in 1887."
+  },
+  {
+   "name": "Horace H. Raymond",
+   "life": "active 1931",
+   "role": "Engineer, Stanley Works",
+   "from": "United States",
+   "note": "With Sheldon Roby, designed the photoelectric 'Magic Eye' door."
+  },
+  {
+   "name": "Sheldon S. Roby",
+   "life": "active 1931",
+   "role": "Engineer, Stanley Works",
+   "from": "United States",
+   "note": "Co-designer of the first door opened by a light beam."
+  },
+  {
+   "name": "Dee Horton",
+   "life": "active 1954 – 1960",
+   "role": "Glazier and inventor",
+   "from": "United States",
+   "note": "Co-invented the automatic sliding door to beat the winds of Corpus Christi."
+  },
+  {
+   "name": "Lew Hewitt",
+   "life": "active 1954 – 1960",
+   "role": "Glazier and inventor",
+   "from": "United States",
+   "note": "Co-invented the automatic sliding door and co-founded Horton Automatics."
+  },
+  {
+   "name": "Helmut Heinz Bunzl",
+   "life": "active 1953",
+   "role": "Engineer and founder",
+   "from": "Switzerland",
+   "note": "Built a swing-door drive in Zurich in 1953, for hygiene: a door nobody has to touch."
+  },
+  {
+   "name": "J. B. Gunn",
+   "life": "1928 – 2008",
+   "role": "Physicist, IBM",
+   "from": "United Kingdom (born in Cairo), worked in the United States",
+   "note": "Discovered in 1962 the effect that makes a small crystal give out microwaves."
+  },
+  {
+   "name": "Toru Kobayashi",
+   "life": "active 1979",
+   "role": "Electronics engineer and founder of OPTEX",
+   "from": "Japan",
+   "note": "His company launched an infrared sensor for automatic doors in 1980."
+  },
+  {
+   "name": "Christian Doppler",
+   "life": "1803 – 1853",
+   "role": "Physicist",
+   "from": "Austria",
+   "note": "Predicted in 1842 the frequency shift that every door radar measures."
+  }
+ ],
+ "series": [],
+ "facts": [
+  "Heron's temple door needed no slaves, springs or animals: only a fire, a sealed pot of air, water and a bucket on a rope.",
+  "The first sensor-operated door was built for waiters with their hands full of plates.",
+  "The sliding automatic door was invented because of the wind: a door that slides sideways gives a gale nothing to push on.",
+  "A person walking at 1.4 m/s changes a 24 GHz radar echo by about 225 Hz, less than one part in 100 million, and the sensor hears it easily.",
+  "A lift's landing door has no motor of its own. It moves only when the car's door grips it."
+ ],
+ "sources": [
+  {
+   "title": "Automatic door",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Automatic_door"
+  },
+  {
+   "title": "Hero of Alexandria",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hero_of_Alexandria"
+  },
+  {
+   "title": "Revolving door",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Revolving_door"
+  },
+  {
+   "title": "Alexander Miles",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alexander_Miles"
+  },
+  {
+   "title": "Elevator",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Elevator"
+  },
+  {
+   "title": "Cocoanut Grove fire",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cocoanut_Grove_fire"
+  },
+  {
+   "title": "About us: our history",
+   "publisher": "Horton Automatics",
+   "url": "https://www.hortondoors.com/about-us"
+  },
+  {
+   "title": "Horton Automatics (company profile)",
+   "publisher": "Manufacturing Today",
+   "url": "https://manufacturing-today.com/profiles/horton-automatics"
+  },
+  {
+   "title": "The Record story",
+   "publisher": "record (ASSA ABLOY group)",
+   "url": "https://www.recorddoors.com/in/en/about-us/history/the-record-story"
+  },
+  {
+   "title": "Platform screen doors",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Platform_screen_doors"
+  },
+  {
+   "title": "Park Pobedy (Saint Petersburg Metro)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Park_Pobedy_(Saint_Petersburg_Metro)"
+  },
+  {
+   "title": "Gunn diode",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gunn_diode"
+  },
+  {
+   "title": "Besam (Assa Abloy)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Besam_(Assa_Abloy)"
+  },
+  {
+   "title": "OPTEX history",
+   "publisher": "OPTEX Europe",
+   "url": "https://www.optex-europe.com/about/history"
+  },
+  {
+   "title": "Passive infrared sensor",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Passive_infrared_sensor"
+  },
+  {
+   "title": "Motion detector",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Motion_detector"
+  },
+  {
+   "title": "MIT study finds revolving doors reduce air infiltration compared to swinging doors",
+   "publisher": "Boon Edam",
+   "url": "https://www.boonedam.com/en-us/mit-study-finds-revolving-doors-reduce-air-infiltration-compared-swinging-doors"
+  },
+  {
+   "title": "Airport Express Line (Delhi Metro)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Airport_Express_Line_(Delhi_Metro)"
+  },
+  {
+   "title": "Delhi Metro begins installing platform screen doors at 6 stations",
+   "publisher": "The Metro Rail Guy",
+   "url": "https://themetrorailguy.com/2016/01/15/delhi-metro-begins-installing-platform-screen-doors-at-6-stations/"
+  },
+  {
+   "title": "Magenta Line (Delhi Metro)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Magenta_Line_(Delhi_Metro)"
+  },
+  {
+   "title": "Chennai Metro",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chennai_Metro"
+  },
+  {
+   "title": "Green Line (Kolkata Metro)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Green_Line_(Kolkata_Metro)"
+  },
+  {
+   "title": "STN EN 16005/AC: Power operated pedestrian doorsets. Safety in use (free preview of EN 16005:2012/AC:2015)",
+   "publisher": "Slovak Office of Standards, Metrology and Testing",
+   "url": "https://normy.normoff.gov.sk/norma/121813/nahlad/"
+  },
+  {
+   "title": "STN EN 16005: Power operated pedestrian doorsets. Safety in use (free preview of EN 16005:2023, contents and scope)",
+   "publisher": "Slovak Office of Standards, Metrology and Testing",
+   "url": "https://normy.normoff.gov.sk/norma/138404/nahlad/"
+  },
+  {
+   "title": "What does the EN 16005 standard specify for automatic doors?",
+   "publisher": "Boon Edam",
+   "url": "https://help.boonedam.com/en/what-does-the-en-16005-standard-specify-for-automatic-doors"
+  },
+  {
+   "title": "CPD 16 2013: Safety rules for automatic doors",
+   "publisher": "Building Design",
+   "url": "https://bdonline.co.uk/cpd/cpd-16-2013-safety-rules-for-automatic-doors/5058304.article"
+  },
+  {
+   "title": "A156.10 Power Operated Pedestrian Doors (Hardware Highlights)",
+   "publisher": "Builders Hardware Manufacturers Association",
+   "url": "https://www.buildershardware.com/ANSI-BHMA-Standards/Hardware-Highlights/A15610-2017-Power-Operated-Pedestrian-Doors"
+  },
+  {
+   "title": "Understanding ANSI A156.10 automatic sliding door requirements",
+   "publisher": "Auto Door and Hardware",
+   "url": "https://autodoorandhardware.com/Understanding-ANSI-A156.10-Automatic-Sliding-Door-Requireme-s/123399.htm"
+  },
+  {
+   "title": "Understanding ANSI A156.19 low energy door operator requirements",
+   "publisher": "Auto Door and Hardware",
+   "url": "https://www.autodoorandhardware.com/Understanding-ANSI-A156-19-Low-Energy-Door-Operator-Require-s/123397.htm"
+  },
+  {
+   "title": "Accessibility in buildings and built environment (training note on the National Building Code of India 2016)",
+   "publisher": "Bureau of Indian Standards",
+   "url": "https://www.services.bis.gov.in/php/BIS_2.0/trainings/dashboardnew/uploads/pwd_b_accessibility.docx"
+  },
+  {
+   "title": "Doppler effect",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Doppler_effect"
+  },
+  {
+   "title": "Infrared",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Infrared"
+  },
+  {
+   "title": "TORMAX: the company",
+   "publisher": "TORMAX",
+   "url": "https://www.tormax.co.nz/en/2/company.html"
+  },
+  {
+   "title": "Automatic doors: all you need to know about regulations EN 16005",
+   "publisher": "Manusa",
+   "url": "https://www.manusa.com/en/blog/automatic-doors-all-you-need-know-about-regulations-en-16005"
+  }
+ ]
+}

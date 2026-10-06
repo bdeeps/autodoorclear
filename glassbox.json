@@ -1,0 +1,107 @@
+{
+  "slug": "autodoorclear",
+  "box": 156,
+  "date": "2026-10-07",
+  "title": "AutoDoorClear",
+  "question": "How do automatic doors work?",
+  "hook": "Open up the box above a sliding door: one belt moves two leaves in opposite directions. Walk a figure at the tiny radar that hears your footsteps as a 225 Hz hum, stop in the doorway, stand a bag in the way, cut the power, and see why the glass never shuts on you.",
+  "thumbText": "HOW AUTOMATIC DOORS WORK",
+  "field": "machines",
+  "minutes": 14,
+  "tags": [
+    "automatic door",
+    "sliding door",
+    "sensors",
+    "radar",
+    "Doppler effect",
+    "infrared",
+    "safety",
+    "metro",
+    "lift",
+    "accessibility",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "The machine is in the box above your head",
+      "text": "A sliding door's leaves hang from wheeled carriages on a track in the header. A small brushless motor turns a toothed belt that runs round two pulleys. One leaf is clamped to the top run of the belt and the other to the bottom run, and the two runs always move opposite ways, so one motor slides both leaves apart or together."
+    },
+    {
+      "title": "A tiny radar hears you coming",
+      "text": "The usual sensor is a microwave radar at about 24 GHz. It sends a steady wave and compares the echo with it. Walk towards it at 1.4 m/s and the echo comes back about 225 Hz higher: the Doppler shift, 2 × f × v ÷ c. Two mixers a quarter-wave apart show whether you are coming or going, so a good sensor does not hold the door for people who are leaving."
+    },
+    {
+      "title": "A curtain of infrared sees you standing",
+      "text": "Radar only detects motion, so a person who stops in the doorway disappears from it. A second, active infrared sensor throws rows of invisible spots on the floor at the threshold and notices when a body covers them, moving or not. Beams across the opening do the same job. Anything seen by any sensor keeps the door open."
+    },
+    {
+      "title": "Fast in the middle, gentle at the ends",
+      "text": "The controller counts pulses from an encoder on the motor to know where the leaves are, and follows a plan: accelerate, cruise, brake, creep. A 60 kg leaf at 0.3 m/s carries 2.7 joules, and energy grows with the square of speed, which is why standards limit closing speed and force. If a leaf slows when it should not, something is in the way and the motor reverses."
+    },
+    {
+      "title": "It must never become a wall",
+      "text": "When the mains fails, a battery opens the door and parks it. A fire alarm signal opens it and holds it open. On escape routes the leaves can be pushed to swing outward by hand with no power at all. A fail-safe lock lets go when power is lost; a fail-secure lock stays shut and is only used where there is another way out."
+    },
+    {
+      "title": "Other doors, other ideas",
+      "text": "A swing-door operator opens a hinged door slowly enough to stop with one hand. A revolving door is an air lock that never offers a draught a straight path. Metro platform screen doors ignore passengers and obey the train, opening only when it has stopped in the right place. A lift's landing door has no motor: the car door grips it and drags it along."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Operator",
+      "def": "The drive unit of an automatic door: motor, gearbox, belt, controller, battery and lock, usually in the header above it."
+    },
+    {
+      "term": "Microwave motion sensor",
+      "def": "A small radar that detects movement from the Doppler shift of its own echo."
+    },
+    {
+      "term": "Doppler shift",
+      "def": "The change in a wave's frequency when the thing reflecting it moves towards or away from you."
+    },
+    {
+      "term": "Presence sensor",
+      "def": "A sensor, usually active infrared, that detects a person who is there even when they are not moving."
+    },
+    {
+      "term": "Speed profile",
+      "def": "The planned speed of the door along its travel: accelerate, cruise, brake and creep."
+    },
+    {
+      "term": "Kinetic energy",
+      "def": "The energy of motion, ½ × mass × speed². Safety standards limit how much a moving leaf may carry."
+    },
+    {
+      "term": "Obstruction reversal",
+      "def": "Re-opening at once when a closing leaf is slowed or stopped by something in its path."
+    },
+    {
+      "term": "Fail-safe",
+      "def": "Designed so that a failure leaves things safe: for a door on a way out, that means open or free to push open."
+    },
+    {
+      "term": "Interlock",
+      "def": "A link between two systems so that one cannot act until the other is in a safe state, as with platform doors and trains."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "autodoorclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
